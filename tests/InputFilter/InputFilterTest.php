@@ -8,6 +8,9 @@ use Laminas\I18n\Filter\Alpha;
 
 class InputFilterTest extends TestCase
 {
+    /**
+     * @covers InputFilter
+     */
     public function testInputFilter()
     {
         $inputFilter = new InputFilter();
@@ -21,7 +24,7 @@ class InputFilterTest extends TestCase
         $inputFilter->setData([
             'code' => 'something',
             'name' => '1234'
-        ]);        
+        ]);
         $this->assertFalse($inputFilter->isValid());
     }
 }
