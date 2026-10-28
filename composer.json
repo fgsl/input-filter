@@ -19,9 +19,9 @@
 		}
 	},
 	"require" : {
-		"php" : "^8.2",
-		"laminas/laminas-inputfilter": "^2.33",
-		"laminas/laminas-i18n": "^2.30"
+		"php" : "^8.5",
+		"laminas/laminas-inputfilter": "^2.35",
+		"laminas/laminas-i18n": "^3.0"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "^10.5"		
